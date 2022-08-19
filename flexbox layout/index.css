@@ -1,0 +1,22 @@
+.flex-container {
+  background-color: yellow;
+    display: flex;
+    /* height: 1000px; */
+    justify-content: space-evenly;
+    align-items:flex-end;
+    /* Flex wrap - used to move items to the next line */
+    flex-wrap:wrap;
+    /* align content - useful in case of multiple row of items in flex container */
+    align-content: space-around;
+    /* width: 200px; */
+    flex-direction: row;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width:200px
+  }
